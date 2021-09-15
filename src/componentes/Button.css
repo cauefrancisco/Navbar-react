@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+* {
+    font-family: Megrim, sans-serif;
+}
+
 :root {
     --primary: #fff;
 
@@ -12,9 +18,10 @@
 }
 
 .btn--primary {
-    background-color: var(--primary);
-    color: #242424;
+    background-color: transparent;
+    color: red;
     border: 1px solid var(--primary);
+    
 
 }
 

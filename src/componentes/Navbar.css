@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 
 .navbar {
     background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
@@ -13,9 +13,14 @@
     z-index: 999;
   }
 
+
   .navbar span {
-      font-family: Allison;
+    color: red;
+    font-style: bolder;
+    font-weight: 900;
+      font-family: Megrim;
   }
+
   
   .navbar-container {
     display: flex;
@@ -63,15 +68,15 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
-    font-family: Allison, sans-serif;
-    font-size: 2.2rem;
+    font-family: Megrim, sans-serif;
+    font-size: 2rem;
     font-style: bolder;
   }
   
-  /* .nav-links:hover {
-    border-bottom: 4px solid #fff;
+  .nav-links:hover {
+    color: red;
     transition: all 0.2s ease-out;
-  } */
+  }
   
   .fa-bars {
     color: #fff;
@@ -117,11 +122,9 @@
       display: table;
     }
   
-    /* .nav-links:hover {
-      background-color: #ffffff;
-      color: #242424;
-      border-radius: 20px;
-    } */
+    .nav-links:hover {
+      color: red;
+    }
   
     .navbar-logo {
       position: absolute;
@@ -152,7 +155,7 @@
       border-radius: 4px;
       width: 80%;
       text-decoration: none;
-      font-family: Allison, sans-serif;
+      font-family: Megrim, sans-serif;
       font-size: 2.2rem;
       background-color: transparent;
       color: #fff;
